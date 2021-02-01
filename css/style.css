@@ -1,0 +1,93 @@
+@font-face {
+    font-family:iransans;
+    src:url(../fonts/IRANSans-UltraLight-web.eot);
+    src:url(../fonts/IRANSans-UltraLight-web.eot?#iefix) format("eot"),url(../fonts/IRANSans-UltraLight-web.woff2) format("woff2"),url(../fonts/IRANSans-UltraLight-web.woff) format("woff"),url(../fonts/IRANSans-UltraLight-web.ttf) format("ttf");
+    font-weight:200
+}
+@font-face {
+    font-family:iransans;
+    src:url(../fonts/IRANSans-Light-web.eot);
+    src:url(../fonts/IRANSans-Light-web.eot?#iefix) format("eot"),url(../fonts/IRANSans-Light-web.woff2) format("woff2"),url(../fonts/IRANSans-Light-web.woff) format("woff"),url(../fonts/IRANSans-Light-web.ttf) format("ttf");
+    font-weight:300
+}
+@font-face {
+    font-family:iransans;
+    src:url(../fonts/IRANSans-web.eot);
+    src:url(../fonts/IRANSans-web.eot?#iefix) format("eot"),url(../fonts/IRANSans-web.woff2) format("woff2"),url(../fonts/IRANSans-web.woff) format("woff"),url(../fonts/IRANSans-web.ttf) format("ttf");
+    font-weight:400
+}
+@font-face {
+    font-family:iransans;
+    src:url(../fonts/IRANSans-Medium-web.eot);
+    src:url(../fonts/IRANSans-Medium-web.eot?#iefix) format("eot"),url(../fonts/IRANSans-Medium-web.woff2) format("woff2"),url(../fonts/IRANSans-Medium-web.woff) format("woff"),url(../fonts/IRANSans-Medium-web.ttf) format("ttf");
+    font-weight:500
+}
+@font-face {
+    font-family:iransans;
+    src:url(../fonts/IRANSans-Bold-web.eot);
+    src:url(../fonts/IRANSans-Bold-web.eot?#iefix) format("eot"),url(../fonts/IRANSans-Bold-web.woff2) format("woff2"),url(../fonts/IRANSans-Bold-web.woff) format("woff"),url(../fonts/IRANSans-Bold-web.ttf) format("ttf");
+    font-weight:700
+}
+body{
+    font-family: iransans;
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+}
+#game{
+    margin: auto;
+}
+canvas{
+    margin: auto;
+}
+.start-back{
+    width: 100%;
+    background-image: url("../images/start.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1b2e4c;
+    height: calc(100vh - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start-back p{
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.start-back img{
+    width: 290px;
+    height: 300px;
+}
+.start-back .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    flex-direction: column;
+}
+.start-back .center .play{
+    color: white;
+    font-size: 29px;
+    font-weight: 500;
+    padding: 15px 25px;
+    background-color: #a6d03c;
+    border-radius: 200px;
+    margin-top: 20px;
+    text-decoration: unset;
+}
+.mahramweb{
+    text-decoration: unset;
+    color: white;
+}
